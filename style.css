@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root{
+--Very-dark-blue1: hsl(217, 54%, 11%);
+--Very-dark-blue2: hsl(216, 50%, 16%);
+--Very-dark-blue3: hsl(215, 32%, 27%);
+--Very-dark-blue4: hsl(215, 51%, 11%);
+--Very-dark-blue5: hsl(215, 50%, 10%);
+--White: hsl(0, 0%, 100%);
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+}
+
+body{
+    background-color: var(--Very-dark-blue1);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.plus{
+    width: 520px;
+    height: 720px;
+    background-color: var(--Very-dark-blue4);
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    z-index: 1;
+}
+.pill{
+    width: 380px;
+    height: 600px;
+    background-color: var(--Very-dark-blue2);
+    border-radius: 20px;
+    z-index: 3;
+    position: relative;
+    top: 50px;
+    
+}
+
+.school{
+    width: 85%;
+    height: auto;
+    position: relative;
+    top: 20px;
+    left: 29px;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.school:hover{
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.mines{
+    width: 85%;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    left: 29px;
+    border-radius: 10px;
+    z-index: 4;
+}
+
+.parts{
+    color: var(--White);
+    font-size: 24px;
+    position: relative;
+    left: 29px;
+    top: 25px;
+}
+
+.parts:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.mine{ 
+    color: var(--Soft-blue);
+    position: relative;
+    left: 29px;
+    top: 50px;
+    font-size: 18px;
+}
+
+.golf{
+    position: relative;
+    left: 29px;
+    top: 90px;
+    color:  var(--Cyan);
+}
+
+.ethy{
+    position: relative;
+    left: 8px;
+    bottom: 4px;
+}
+
+.food{
+    color: var(--Soft-blue); 
+    position: relative;
+    top: 64px;
+    left: 250px;
+}
+
+.ethy12+{
+   position: relative;
+   top: -10px;
+}
+
+.hr{
+    height: 1px;
+    background-color: var(--Soft-blue);
+    width: 85%;
+    position: relative;
+    left: 29px;
+    top: 80px;
+}
+
+.dove{
+    height: 40px;
+    width: auto;
+    border: solid var(--White);
+    border-radius: 50%;
+    position: relative;
+    top: 40px;
+    right: 60px; 
+}
+
+.group{
+font-weight: bold;
+font-size: 16px;
+position: relative;
+top: 9px;
+}
+
+.cloak{
+    color: var(--Soft-blue);
+}
+
+.gold{
+    color: var(--White);
+}
+
+.gold:hover{
+    color: var(--Cyan);
+    cursor: pointer; 
+}
+
+.paqwer{
+    position: relative;
+    top: 55px;
+    left: 89px;
+}
+
+.plan{
+    width: 440px;
+    height: 600px;
+    background-color: var(--Very-dark-blue5);
+    border-radius: 20px;
+    z-index: 2;
+    position: relative;
+    bottom: 520px;
+}
+
